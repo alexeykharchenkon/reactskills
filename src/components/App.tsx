@@ -13,6 +13,7 @@ export const App = observer(() => {
       <TableComponent 
         data={tableStore.data} 
         operationFunc={tableStore.operationFunc}
+        activeItem={tableStore.activeItem}
       />
     </Container>      
   );

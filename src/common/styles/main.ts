@@ -11,13 +11,6 @@ export const useStyles = makeStyles({
         width: '100%',
         padding: '5px'
     },
-    form: {
-        display: 'flex',
-        background: '#fff59d',
-        margin: '5px',
-        border: '1px solid #ff7961',
-        borderRadius: '5%',
-    },
     table_component: {
         display: 'flex',
         flexDirection: 'column',
@@ -25,7 +18,7 @@ export const useStyles = makeStyles({
         margin: '5px',
         padding: '5px',
         background: '#fff59d',
-        border: '1px solid #ff7961',
+        border: '2px solid #ff7961',
         borderRadius: '5%',
     },
     table_component_container: {
@@ -40,7 +33,33 @@ export const useStyles = makeStyles({
         justifyContent: 'flex-start',
     },
     table_component_table: {
-        border: '1px solid #f44336',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-beetwen',
         marginBottom: '10px',
+    },
+    table_component_table_head: {
+        background: '#cbc26d',
+    },
+    form: {
+        display: 'flex',
+        flexDirection: 'column',
+        background: '#fff59d',
+        padding: '10px',
+        border: '1px solid #ff7961',
+        width: '400px',
+    },
+    form_body: {
+        display: 'flex',
+        flexDirection: 'column',
+        width: '300px',
+        alignItems: 'center',
+        '& input' : {
+            borderRadius: '5%',
+            border: '1px solid #ff7961',
+            height: '25px',
+            width: '300px',
+            marginBottom: '10px'
+        },
     },
   });

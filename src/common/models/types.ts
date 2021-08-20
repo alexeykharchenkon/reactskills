@@ -1,6 +1,6 @@
-export interface Item {
-    id: string;
-    title: string;
-    text: string;
-    isChecked: boolean;
+export class Item {
+    public id: string = "";
+    public title: string = "";
+    public text: string = "";
+    public isChecked: boolean = false;
 }

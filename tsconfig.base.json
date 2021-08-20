@@ -6,6 +6,8 @@
             "@services/*": ["common/services/*"],
             "@models/*": ["common/models/*"],
             "@styles/*": ["common/styles/*"],
+            "@actions/*": ["common/actions/*"],
+            "@config/*": ["common/config/*"],
             "@components/*": ["components/*"],
     }
 }
